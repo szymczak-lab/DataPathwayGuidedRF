@@ -1,0 +1,14 @@
+#' GSE20257
+#'
+#'  This is a preprocessed hallmark data set with APICAL_SURFACE and APICAL JUNCTION as target pathway.
+#'  A Genome U133 Plus 2.0 Array is utilized to analyze non-smoking vs. smoking with COPD in small airway epithelium tissue. The study was performed in an unpaired design.
+#'
+#'
+#' @docType data
+#' @keywords datasets
+#' @name GSE20257
+#' @usage data(GSE20257)
+#' @format A Summarized Experiment object  with 19014 genes and 65 samples (23 cases and 42 controls).
+#' The column outcome in the colData corresponds to the outcome that was used in the paper.
+#' @references Shaykhiev, R., Otaki, F., Bonsu, P., Dang, D. T., Teater, M., Strulovici-Barel, Y., Salit, J., Harvey, B.-G., and Crystal, R. G. (2011). Cigarette smoking reprograms apical junctional complex molecular architecture in the human airway epithelium in vivo. Cell Mol Life Sci, 68, 877–892.
+NULL

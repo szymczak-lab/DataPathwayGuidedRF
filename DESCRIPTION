@@ -1,0 +1,13 @@
+Package: DataPathwayGuidedRF
+Type: Package
+Title: DataPathwayGuidedRF
+Version: 0.1.0
+Author: Stephan Seifert, Silke Szymczak
+Maintainer: Silke Szymczak <szymczak@medinfo.uni-kiel.de>
+Description: Experimental benchmark data sets for R package PathwayGuidedRF
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+Imports:
+	SummarizedExperiment
+RoxygenNote: 6.1.1
