@@ -1,7 +1,7 @@
 DataPathwayGuidedRF
 ================
 
-This R package provides the experimental benchmark data sets for the paper "Integrating biological knowledge and gene expression data using pathway guided random forests: A benchmarking study".
+This R package provides the experimental benchmark data sets for the paper "Integrating biological knowledge and gene expression data using pathway guided random forests: A benchmarking study". Normalized data sets were obtained from GEO and the Summarized Experiment objects in this package contain these data sets further preprocessed. For more details about the preprocessing please read the methods section of the paper.
 
 Installation
 ------------
@@ -35,16 +35,10 @@ library(SummarizedExperiment)
 data(GSE8671)
 ```
 
-To obtain the raw data:
+To obtain the data:
 
 ``` r
-data.raw = assays(GSE8671)$expr
-```
-
-To obtain the preprocessed data:
-
-``` r
-data.pre = assays(GSE8671)$expr.standardized 
+data = assays(GSE8671)$expr
 ```
 
 To obtain information about the samples (The column outcome corresponds to the outcome that was used in the paper):
